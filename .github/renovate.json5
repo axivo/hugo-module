@@ -39,6 +39,10 @@
       ],
       "matchPackagePrefixes": [
         "golang/"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor"
       ]
     },
     {
@@ -48,6 +52,10 @@
       ],
       "matchManagers": [
         "gomod"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor"
       ]
     },
     {
