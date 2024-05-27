@@ -3,11 +3,62 @@
   "assignees": [
     "fmunteanu"
   ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "datasourceTemplate": "github-tags",
+      "depNameTemplate": "golang/go",
+      "extractVersionTemplate": "^go(?<version>.+)$",
+      "fileMatch": [
+        "netlify.toml"
+      ],
+      "matchStrings": [
+        "^GO_VERSION[\\s\\S]+?\"(?<currentValue>.+)\""
+      ]
+    }
+  ],
+  "enabledManagers": [
+    "custom.regex",
+    "github-actions",
+    "gomod"
+  ],
   "extends": [
     "config:recommended"
   ],
   "labels": [
     "dependency"
+  ],
+  "packageRules": [
+    {
+      "groupName": "dependency golang/go",
+      "matchDatasources": [
+        "github-tags"
+      ],
+      "matchManagers": [
+        "custom.regex"
+      ],
+      "matchPackagePrefixes": [
+        "golang/"
+      ]
+    },
+    {
+      "groupName": "dependency golang/go",
+      "matchDatasources": [
+        "golang-version"
+      ],
+      "matchManagers": [
+        "gomod"
+      ]
+    },
+    {
+      "enabled": true,
+      "matchDepTypes": [
+        "indirect"
+      ],
+      "matchManagers": [
+        "gomod"
+      ]
+    }
   ],
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0
