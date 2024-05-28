@@ -13,7 +13,7 @@ menu:
     - name: GitHub
       params:
         icon: github
-      url: https://github.com/axivo/website
+      url: https://github.com/axivo/hugo-module
       weight: 2
 module:
   hugoVersion:
@@ -24,8 +24,8 @@ module:
 params:
   description: Imagine. Create.
   editURL:
-    base: https://github.com/axivo/website/edit/main/docs/content
+    base: https://github.com/axivo/hugo-module/edit/main/docs/content
     enable: true
   variables:
-    repository: github.com/axivo/website
+    repository: github.com/axivo/hugo-module
 publishDir: ../public

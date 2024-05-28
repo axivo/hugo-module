@@ -1,0 +1,58 @@
+baseURL: https://axivo.com/project/
+languages:
+  en:
+    title: AXIVO | Project
+markup:
+  _merge: shallow
+menu:
+  main:
+    - name: Documentation
+      identifier: wiki
+      pageRef: /wiki
+      weight: 1
+    - name: Tutorials
+      identifier: tutorials
+      pageRef: /tutorials
+      weight: 2
+    - name: Search
+      params:
+        type: search
+      weight: 3
+    - name: GitHub
+      params:
+        icon: github
+      url: https://github.com/axivo/hugo-module
+      weight: 4
+    - name: Parent
+      params:
+        icon: folder
+      url: ../
+      weight: 5
+  sidebar:
+    - identifier: more
+      name: More
+      params:
+        type: separator
+      weight: 1
+    - identifier: issues
+      name: "🌐 Issues ↗"
+      url: "https://github.com/axivo/hugo-module/issues"
+      weight: 2
+module:
+  mounts:
+    - source: content
+      target: content/project
+    - source: public
+      target: ../public/project
+    - source: static
+      target: static/project
+params:
+  description: Project deployed with Ansible
+  editURL:
+    base: https://github.com/axivo/website/edit/main/project/content
+    enable: true
+  variables:
+    os:
+      previous_version: 22.04
+      version: 24.04
+    repository: github.com/axivo/hugo-module
