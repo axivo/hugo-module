@@ -2,8 +2,6 @@ baseURL: https://axivo.com/project/
 languages:
   en:
     title: AXIVO | Project
-markup:
-  _merge: shallow
 menu:
   main:
     - name: Documentation
