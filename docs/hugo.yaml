@@ -20,7 +20,6 @@ module:
     extended: true
     min: 0.125.0
   imports:
-    - path: github.com/axivo/website/global
     - path: github.com/imfing/hextra
 params:
   description: Imagine. Create.
