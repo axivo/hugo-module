@@ -1,3 +1,3 @@
-module github.com/axivo/website/global
+module github.com/axivo/hugo-module/global
 
 go 1.22
