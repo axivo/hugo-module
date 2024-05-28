@@ -20,6 +20,8 @@ module:
     extended: true
     min: 0.125.0
   imports:
+    - path: github.com/axivo/hugo-module/global
+    - path: github.com/axivo/hugo-module/project
     - path: github.com/imfing/hextra
 params:
   description: Imagine. Create.
