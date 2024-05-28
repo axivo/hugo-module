@@ -1,2 +1,3 @@
 # hugo-module
-Renovate Hugo module
+
+Renovate Hugo module.
