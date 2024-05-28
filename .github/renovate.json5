@@ -17,11 +17,6 @@
       ]
     }
   ],
-  "enabledManagers": [
-    "custom.regex",
-    "github-actions",
-    "gomod"
-  ],
   "extends": [
     "config:recommended"
   ],
