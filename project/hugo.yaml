@@ -34,8 +34,6 @@ menus:
       weight: 2
 module:
   mounts:
-    - source: content
-      target: content/project
     - source: public
       target: ../public/project
     - source: static
