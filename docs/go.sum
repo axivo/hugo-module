@@ -1,6 +1,6 @@
 github.com/axivo/hugo-module/global v1.0.0 h1:gxQkVuqxNV36pOlUJuvWLURNvbn0k25jGa4ZhuLsll8=
 github.com/axivo/hugo-module/global v1.0.0/go.mod h1:O/D/m+h1KnvdzY6sPfVk1CaG9ifdxQ02sZpY8C9bSqQ=
-github.com/axivo/hugo-module/project v1.0.5 h1:V/V0sN1USZ9+7Nb8faClnTtU2vu2bPwVKt9ylOj1Sng=
-github.com/axivo/hugo-module/project v1.0.5/go.mod h1:x0c2w1X48MU+J04l6O0nBxJozZX/7LH3EddzTEWnJ/Q=
+github.com/axivo/hugo-module/project v1.0.6 h1:2Sf3a5YaNg8m+pjpjnMttsLdUow9lUza6U57jMJ+l5I=
+github.com/axivo/hugo-module/project v1.0.6/go.mod h1:x0c2w1X48MU+J04l6O0nBxJozZX/7LH3EddzTEWnJ/Q=
 github.com/imfing/hextra v0.7.4-0.20240529081324-db92de0f1b5f h1:qC+pjf/6rwDEoYgi1zRV1CRmuJc3KveWZekVBSp+snY=
 github.com/imfing/hextra v0.7.4-0.20240529081324-db92de0f1b5f/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
