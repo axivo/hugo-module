@@ -36,6 +36,8 @@ module:
   mounts:
     - source: content
       target: content/project
+    - source: layouts
+      target: layouts/project
     - source: public
       target: public/project
     - source: static
