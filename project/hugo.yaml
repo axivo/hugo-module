@@ -2,14 +2,14 @@ baseURL: https://axivo.com/project/
 languages:
   en:
     title: AXIVO | Project
-menu:
+menus:
   main:
-    - name: Documentation
-      identifier: wiki
+    - identifier: wiki
+      name: Documentation
       pageRef: /wiki
       weight: 1
-    - name: Tutorials
-      identifier: tutorials
+    - identifier: tutorials
+      name: Tutorials
       pageRef: /tutorials
       weight: 2
     - name: Search
@@ -54,3 +54,4 @@ params:
       previous_version: 22.04
       version: 24.04
     repository: github.com/axivo/hugo-module
+sectionPagesMenu: project
