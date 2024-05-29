@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: hextra-home
+type: hextra
 ---
 
 {{< hextra/hero-container
