@@ -30,4 +30,3 @@ params:
     enable: true
   variables:
     repository: github.com/axivo/hugo-module
-publishDir: ../public

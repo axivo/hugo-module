@@ -35,7 +35,7 @@ menus:
 module:
   mounts:
     - source: public
-      target: ../public/project
+      target: public/project
     - source: static
       target: static/project
 params:
