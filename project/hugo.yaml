@@ -1,9 +1,5 @@
-baseURL: https://axivo.com/project/
-languages:
-  en:
-    title: AXIVO | Project
 menus:
-  main:
+  project:
     - identifier: wiki
       name: Documentation
       pageRef: /wiki
