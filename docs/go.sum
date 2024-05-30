@@ -4,3 +4,4 @@ github.com/axivo/hugo-module/project v1.0.6 h1:2Sf3a5YaNg8m+pjpjnMttsLdUow9lUza6
 github.com/axivo/hugo-module/project v1.0.6/go.mod h1:x0c2w1X48MU+J04l6O0nBxJozZX/7LH3EddzTEWnJ/Q=
 github.com/imfing/hextra v0.7.4-0.20240529081324-db92de0f1b5f h1:qC+pjf/6rwDEoYgi1zRV1CRmuJc3KveWZekVBSp+snY=
 github.com/imfing/hextra v0.7.4-0.20240529081324-db92de0f1b5f/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
+github.com/imfing/hextra v0.7.4-0.20240529212734-6ee6ddeacb9c/go.mod h1:cEfel3lU/bSx7lTE/+uuR4GJaphyOyiwNR3PTqFTXpI=
