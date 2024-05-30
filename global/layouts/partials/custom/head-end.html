@@ -3,6 +3,6 @@
   window.addEventListener("load", () => {
     quicklink.listen();
   });
-  var hugoLog = JSON.parse({{ jsonify .Site }});
+  var hugoLog = JSON.parse({{ jsonify . }});
   console.log('Hugo Debug: ', hugoLog);
 </script>

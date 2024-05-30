@@ -1,6 +1,8 @@
 ---
 title: Home
-type: hextra
+layout: hextra-home
+sidebar:
+  exclude: true
 ---
 
 {{< hextra/hero-container
