@@ -6,7 +6,7 @@
   "customDatasources": {
     "cilium-cli": {
       "defaultRegistryUrlTemplate": "https://github.com/cilium/cilium-cli/blob/main/stable.txt",
-      "format": "html"
+      "format": "plain"
     }
   },
   "customManagers": [
