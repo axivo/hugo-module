@@ -15,7 +15,7 @@
       "datasourceTemplate": "custom.cilium-cli",
       "depNameTemplate": "cilium/cilium-cli",
       "fileMatch": [
-        "config.yaml"
+        "/config.yaml"
       ],
       "matchStrings": [
         "release:[\\s\\S]+cli:[\\s\\S]+?version:\\s+(?<currentValue>.+)"
@@ -28,7 +28,7 @@
       "depNameTemplate": "golang/go",
       "extractVersionTemplate": "^go(?<version>.+)$",
       "fileMatch": [
-        "netlify.toml"
+        "/netlify.toml"
       ],
       "matchStrings": [
         "^GO_VERSION[\\s\\S]+?\"(?<currentValue>.+)\""
