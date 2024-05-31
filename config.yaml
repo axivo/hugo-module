@@ -19,3 +19,4 @@ cilium_vars:
         name: hubble
         org: cilium
       version: v0.13.4
+    test: value
