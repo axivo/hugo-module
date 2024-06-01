@@ -3,25 +3,7 @@
   "assignees": [
     "fmunteanu"
   ],
-  "customDatasources": {
-    "cilium-cli": {
-      "defaultRegistryUrlTemplate": "https://raw.githubusercontent.com/cilium/cilium-cli/master/stable.txt",
-      "format": "plain"
-    }
-  },
   "customManagers": [
-    {
-      "customType": "regex",
-      "datasourceTemplate": "custom.cilium-cli",
-      "depNameTemplate": "cilium/cilium-cli",
-      "fileMatch": [
-        "config.yaml"
-      ],
-      "matchStrings": [
-        "release:[\\s\\S]+cli:[\\s\\S]+?version:\\s+(?<currentValue>.+)"
-      ],
-      "versioningTemplate": "semver-coerced"
-    },
     {
       "customType": "regex",
       "datasourceTemplate": "github-tags",
