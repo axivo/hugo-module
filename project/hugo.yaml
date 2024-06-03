@@ -57,3 +57,4 @@ params:
       previous_version: 22.04
       version: 24.04
     repository: github.com/axivo/hugo-module
+sectionPagesMenu: project
