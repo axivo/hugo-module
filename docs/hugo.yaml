@@ -23,6 +23,10 @@ module:
     - path: github.com/axivo/hugo-module/global
     - path: github.com/axivo/hugo-module/project
     - path: github.com/imfing/hextra
+  mounts:
+    - excludeFiles: ../project/*
+      source: content
+      target: content
 params:
   description: Imagine. Create.
   editURL:
@@ -30,4 +34,3 @@ params:
     enable: true
   variables:
     repository: github.com/axivo/hugo-module
-sectionPagesMenu: main
