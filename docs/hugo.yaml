@@ -28,6 +28,5 @@ params:
   editURL:
     base: https://github.com/axivo/hugo-module/edit/main/docs/content
     enable: true
-  menu: main
   variables:
     repository: github.com/axivo/hugo-module
