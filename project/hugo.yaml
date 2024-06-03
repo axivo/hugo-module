@@ -1,22 +1,26 @@
 menus:
   project:
+    - identifier: home
+      name: Home
+      pageRef: /project
+      weight: 1
     - identifier: wiki
       name: Documentation
-      pageRef: /wiki
-      weight: 1
+      pageRef: /project/wiki
+      weight: 2
     - identifier: tutorials
       name: Tutorials
-      pageRef: /tutorials
-      weight: 2
+      pageRef: /project/tutorials
+      weight: 3
     - name: Search
       params:
         type: search
-      weight: 3
+      weight: 4
     - name: GitHub
       params:
         icon: github
       url: https://github.com/axivo/hugo-module
-      weight: 4
+      weight: 5
     - name: Parent
       params:
         icon: folder
