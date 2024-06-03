@@ -1,6 +1,6 @@
 module github.com/axivo/hugo-module/docs
 
-go 1.22
+go 1.21
 
 require (
 	github.com/axivo/hugo-module/global v1.0.0 // indirect
