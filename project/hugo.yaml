@@ -1,5 +1,5 @@
 menus:
-  project:
+  main:
     - identifier: home
       name: Home
       pageRef: /project
@@ -19,7 +19,7 @@ menus:
     - name: GitHub
       params:
         icon: github
-      url: https://github.com/axivo/hugo-module
+      url: https://github.com/axivo/k3s-cluster
       weight: 5
     - name: Parent
       params:
@@ -34,7 +34,7 @@ menus:
       weight: 1
     - identifier: issues
       name: "🌐 Issues ↗"
-      url: "https://github.com/axivo/hugo-module/issues"
+      url: "https://github.com/axivo/k3s-cluster/issues"
       weight: 2
 module:
   mounts:
@@ -49,12 +49,10 @@ module:
 params:
   description: Project deployed with Ansible
   editURL:
-    base: https://github.com/axivo/website/edit/main/project/content
+    base: https://github.com/axivo/k3s-cluster/edit/main/content
     enable: true
-  menu: project
   variables:
     os:
       previous_version: 22.04
       version: 24.04
     repository: github.com/axivo/hugo-module
-sectionPagesMenu: project
