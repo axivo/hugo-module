@@ -24,7 +24,7 @@ module:
     - path: github.com/axivo/hugo-module/project
     - path: github.com/imfing/hextra
   mounts:
-    - excludeFiles: ../project/*
+    - excludeFiles: project/*
       source: content
       target: content
 params:
